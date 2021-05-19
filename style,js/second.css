@@ -1,0 +1,38 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+@font-face {
+    font-family: 'eliceR';
+    src: url("./EliceDigitalBaeumOTF_Regular.otf");
+     font-family: 'eliceB';
+    src: url("./EliceDigitalBaeumOTF_Bold.otf");
+}
+html,body{
+    width : 100vw;
+    height : 100vh;
+    background : white;
+    font-family : "eliceR";
+    font-size : 10px;
+}
+#bbody{
+    margin : 0 20px;
+}
+header{
+    background : black;
+    display : flex;
+    justify-content: center;
+    padding-top : 2rem;
+}
+#logo1{
+    width : 40vw;
+}
+#complete{
+    position : absolute;
+    right : 2rem;
+    font-size : 1.5rem;
+    color : white;
+    background : #0071CE;
+    border-style : none;
+    border-radius : 1rem;
+}
